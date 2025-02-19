@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     font-family: Arial, sans-serif;
 }
 
-nav {
+header {
     background-color: #333;
     padding: 1em;
     display: flex;
@@ -16,51 +16,114 @@ nav {
     align-items: center;
 }
 
-nav .logo h1 {
+header .logo h1 {
     color: white;
 }
 
-nav ul {
+header ul {
     list-style: none;
     display: flex;
 }
 
-nav ul li {
+header ul li {
     margin: 0 15px;
 }
 
-nav ul li a {
+header ul li a {
     color: white;
     text-decoration: none;
     font-size: 1.1em;
 }
 
 section {
-    padding: 70px;
-    margin-top: 20px;
+    padding: 50px;
+    margin-top: 30px;
+    border-style: dashed;
 }
 
 #introduction {
-    background-color: #f9f9f9;
+    background-color: #a6a7af;
+    height: 500px;
 }
 
-.intro-img {
-    width: 
-    
+main img {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+.about-me {
+    border-style: dotted;
+    border-radius: 15px;
+    width: 700px;
+    margin-left: 340px;
+    margin-top: -260px;
+    padding: 30px;
+
 }
 
-#skills ul {
-    list-style-type: none;
+#skills {
+    width: 100%;
+    background: #101010;
+    padding: 100px 0px;
+}
+
+#skills h2 {
+    color: white;
+    font-size: 70px;
+    width: 500px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.box {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
 }
 
-#skills ul li {
-    margin: 10px;
-    padding: 10px;
-    background-color: #efefef;
-    border-radius: 5px;
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
 }
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.par p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button {
+    background-color: rgb(9, 116, 238);
+    color: white;
+    padding: 9px 22px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid;
+    transition: .4s;
+}
+
+.card .button:hover{
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+}
+
 
 footer {
     background-color: #333;
@@ -69,3 +132,5 @@ footer {
     padding: 10px;
     margin-top: 40px;
 }
+
+#contacts
